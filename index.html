@@ -52,7 +52,7 @@
         }
 
         .slide-away {
-            transform: translateX(100%); /* Se desliza a la derecha */
+            transform: translateX(100%);
         }
 
         /* --- FONDO DEL JUEGO --- */
@@ -60,7 +60,7 @@
             width: 100vw;
             height: 100vh;
             background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                        url('https://files.catbox.moe/iui83w.jpeg'); /* Misma imagen pero oscura */
+                        url('https://files.catbox.moe/iui83w.jpeg');
             background-size: cover;
             background-position: center;
             display: flex;
@@ -106,7 +106,6 @@
             margin-top: 10px;
         }
 
-        /* --- BOTÓN SIGUIENTE --- */
         #next-btn {
             margin-top: 25px;
             padding: 15px 50px;
@@ -119,6 +118,7 @@
             font-weight: bold;
             transition: 0.3s;
             text-transform: uppercase;
+            z-index: 10;
         }
 
         #next-btn:hover {
@@ -158,53 +158,59 @@
             <p>Ahora, más allá del mar y del tiempo, sus almas finalmente se han encontrado. En ese reino eterno, ya nada podrá volver a separarlos.</p>
         </div>
 
-          <div class="text-box" id="box-4">
+        <div class="text-box" id="box-5">
             <div class="char-name">Segunda Parte</div>
             <p>que se viene mas arte ojito con eso </p>
         </div>
 
-         <div class="text-box" id="box-4">
+        <div class="text-box" id="box-6">
             <div class="char-name">Cap2-part1</div>
             <p>de la nada llega poseidon a hacer pvp con la concha poseidon a escopeta de doble cañon y la concha a Revolver 64</p>
         </div>
 
-         <div class="text-box" id="box-4">
+        <div class="text-box" id="box-7">
             <div class="char-name">Cap2'part2</div>
             <p>la concha pierde por que no puso pared agachada y poseidon le hiso una emotisa insana re toxico y la concha le dice eliminate eliminate loco te creo sala salte</p>
         </div>
 
-         <div class="text-box" id="box-4">
+        <div class="text-box" id="box-8">
             <div class="char-name">Cap2'part3</div>
             <p>y a la pinguina le da depresion nivel celestial y le lansa un pescado gigante, pero poseidon si pone pared glu</p>
-       </div>
+        </div>
 
-         <div class="text-box" id="box-4">
+        <div class="text-box" id="box-9">
             <div class="char-name">Cap2'part4</div>
             <p>y le da su '500 a la pinguina y poseidon se hace un doble kill y su perpesctiva emotisa insana</p>
-       </div>
+        </div>
 
-          <div class="text-box" id="box-4">
+        <div class="text-box" id="box-10">
             <div class="char-name">Cap2'part5 y Final</div>
             <p>Victory clas Royale</p>
-       </div>
+        </div>
         
         <button id="next-btn" onclick="siguiente()">Siguiente Parte</button>
     </div>
 
     <script>
         let paso = 1;
-        const total = 4;
+        const total = 10; // Actualizado al número total de escenas
 
         function entrar() {
-            document.getElementById('portada').classList.add('slide-away');
+            document.getElementById('portada').style.transform = 'translateX(100%)';
         }
 
         function siguiente() {
+            // Ocultar actual
             document.getElementById(`box-${paso}`).classList.remove('active');
+            
             paso++;
+            
+            // Reiniciar si llega al final
             if (paso > total) {
-                paso = 1; // Reinicia el cuento
+                paso = 1;
             }
+            
+            // Mostrar siguiente
             document.getElementById(`box-${paso}`).classList.add('active');
         }
     </script>
