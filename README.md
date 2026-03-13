@@ -20,4 +20,4 @@ Si quieres leer la historia solo copia el link de abajo y acsede a el con google
 
 1. **Clonar el repositorio:**
    ```bash
-   https://kevinreyes-garcia-rgb.github.io/history-2/
+   https://kevinreyes-garcia-rgb.github.io/history-3/
