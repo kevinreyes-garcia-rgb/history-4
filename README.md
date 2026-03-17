@@ -13,6 +13,7 @@ Hola esta es una historia random disfruten
 |💧Rol | 👤 Desarrollador |
 | :--- | :--- |
 | **Lead Dev** | [Klee](https://github.com/kevinreyes-garcia-rgb/) |
+| **Desarrollador** | [Antho]()
 
 ## 🛠️ Instalación y Uso
 
