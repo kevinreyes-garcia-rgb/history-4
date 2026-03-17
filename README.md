@@ -18,7 +18,9 @@ Hola esta es una historia random disfruten
 
 ## 🛠️ Instalación y Uso
 
-Si quieres leer la historia solo copia el link de abajo y acsede a el con google:
+Si quieres leer la historia solo copia el link de abajo y acsede a el con google: 
+Y si quieres ver otras paginas de este canal todo pobre ve a tu derecha y dale al perfil del canal y ahi otras 
+paginas muy interesantes :>
 
 1. **Clonar el repositorio:**
    ```bash
