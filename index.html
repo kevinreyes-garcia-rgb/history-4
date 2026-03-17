@@ -51,10 +51,6 @@
             100% { box-shadow: 0 0 0 0 rgba(255, 121, 198, 0); }
         }
 
-        .slide-away {
-            transform: translateX(100%);
-        }
-
         /* --- FONDO DEL JUEGO --- */
         #game-container {
             width: 100vw;
@@ -150,7 +146,7 @@
 
         <div class="text-box" id="box-3">
             <div class="char-name">Sezar</div>
-            <p>"No puedo vivir en un mundo donde no escuche tu risa, Frainis". Con esa promesa, Sezar decidió desvivirse para cruzar el umbral que los separaba.</p>
+            <p>"No puedo vivir en un mundo donde no escuche tu risa, Frainis". Con esa promesa, Sezar decidió cruzar el umbral que los separaba.</p>
         </div>
 
         <div class="text-box" id="box-4">
@@ -160,42 +156,42 @@
 
         <div class="text-box" id="box-5">
             <div class="char-name">Segunda Parte</div>
-            <p>que se viene mas arte ojito con eso </p>
+            <p>Pero ojo, que se viene más arte. Prepárate para la acción...</p>
         </div>
         
         <div class="text-box" id="box-6">
-            <div class="char-name">Cap2-part1</div>
-            <p>de la nada llega poseidon a hacer pvp con la concha poseidon a escopeta de doble cañon y la concha a Revolver 64</p>
+            <div class="char-name">Cap 2 - El Reto</div>
+            <p>De la nada llega Poseidón a hacer PVP con la concha. Poseidón viene con escopeta de doble cañón y la concha con un Revolver 64.</p>
         </div>
 
         <div class="text-box" id="box-7">
-            <div class="char-name">Cap2'part2</div>
-            <p>la concha pierde por que no puso pared agachada y poseidon le hiso una emotisa insana re toxico y la concha le dice eliminate eliminate loco te creo sala salte</p>
+            <div class="char-name">Cap 2 - Humillación</div>
+            <p>La concha pierde porque no puso pared agachada. Poseidón le hizo una emotiza insana re tóxica y la concha le dice: "¡Elimínate loco, te creo sala, salte!"</p>
         </div>
 
         <div class="text-box" id="box-8">
-            <div class="char-name">Cap2'part3</div>
-            <p>y a la pinguina le da depresion nivel celestial y le lansa un pescado gigante, pero poseidon si pone pared glu</p>
+            <div class="char-name">Cap 2 - Venganza</div>
+            <p>A la pingüina le da depresión nivel celestial y le lanza un pescado gigante, pero Poseidón sí pone pared gloo.</p>
         </div>
 
         <div class="text-box" id="box-9">
-            <div class="char-name">Cap2'part4</div>
-            <p>y le da su -500 a la pinguina y poseidon se hace un doble kill y su respectiva emotisa insana</p>
+            <div class="char-name">Cap 2 - Double Kill</div>
+            <p>Poseidón le pega su -500 a la pingüina y se hace un double kill con su respectiva emotiza insana.</p>
         </div>
 
-           <div class="text-box" id="box-9">
-            <div class="char-name">Capitulo 3</div>
-            <p></p>
+        <div class="text-box" id="box-10">
+            <div class="char-name">Capítulo 3</div>
+            <p>¡El regreso de los dioses! La batalla final comienza ahora.</p>
         </div>
 
-           <div class="text-box" id="box-9">
-            <div class="char-name">Cap3 part1</div>
-            <p>luego de la emillada de peidon,  Cesar y Frainnys revivieron y se pusieron pilas, compraron una M1014 y entre los dos, le empezaron a dar cañonazos al pescado, el duo se puso insano, cesar saco los poderes y le dio un -500 a poseidon, frainnys no le pudo seguir el ritmo a cesar, colocual no pudo dar su respectivo -500, pero le atino un -499. El pescado retrocedio con una voltereta olimpica 360 volador, A este punto el pejesapo tenia 1 de vida.  p</p>
+        <div class="text-box" id="box-11">
+            <div class="char-name">Cap 3 - El Regreso</div>
+            <p>Luego de la humillada de Poseidón, Cesar y Frainnys revivieron y se pusieron pilas. Compraron una M1014 y entre los dos empezaron a dar cañonazos. Cesar sacó los poderes y le dio un -500 a Poseidón; Frainnys le atinó un -499. ¡El pejesapo quedó a 1 de vida!</p>
         </div>
                
-        <div class="text-box" id="box-10">
-            <div class="char-name">Cap3'part5 y Final</div>
-            <p>Victory clas Royale</p>
+        <div class="text-box" id="box-12">
+            <div class="char-name">Cap 3 - Final</div>
+            <p><b>VICTORY ROYALE</b>. El pescado retrocedió con una voltereta olímpica 360 y la paz volvió al océano.</p>
         </div>
         
         <button id="next-btn" onclick="siguiente()">Siguiente Parte</button>
@@ -203,7 +199,8 @@
 
     <script>
         let paso = 1;
-        const total = 10; // Actualizado al número total de escenas
+        // El total ahora es 12 porque corregí los IDs duplicados
+        const total = 12; 
 
         function entrar() {
             document.getElementById('portada').style.transform = 'translateX(100%)';
