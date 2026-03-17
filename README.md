@@ -3,7 +3,7 @@ Hola esta es una historia random disfruten
 ---
 
 ## Portada del Proyecto
-![Historia Cover](https://files.catbox.moe/qg11vg.jpg)
+![Historia Cover](https://files.catbox.moe/sgfc34.gif)
 
 ---
 
@@ -15,7 +15,7 @@ Hola esta es una historia random disfruten
 | **Lead Dev** | [Klee](https://github.com/kevinreyes-garcia-rgb/) |
 | **Desarrollador** | [LingKabuya](https://github.com/LingKabuya) |
 | **Desarrollador** | [Big-Koki](https://github.com/Big-koki) |
-| **Desarrolladora** | [Cuervita]() |
+| **Desarrolladora** | [Cuervita](https://github.com/rezemd56-hash/) |
 
 ## 🛠️ Instalación y Uso
 
